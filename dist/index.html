@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contacto</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Theme color (Only Chrome Mobile)-->
+    <meta name="theme-color" content="#db5945">
+    <!-- Facebook meta tags-->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="Página de Contacto">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!--Canonical-->
+    <link rel="canonical" href="http://localhost">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https:////netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+  </head>
+  <body>
+    <input id="identify" type="hidden" data-controller="home" data-action="">
+    <div class="vcard">
+      <div class="vcard-header">
+        <div class="header-wrapper">
+          <div class="header-info">
+            <div class="img"></div>
+            <h4 class="full-name">Alberto Trece</h4>
+          </div>
+          <div class="header-functions"><a href="tel:95345456"><i class="icon-phone dynamicTextColor"></i><small class="dynamicTextColor">Llamar</small></a><a class="last-element" href="mailto:aaa@gmail.com?subject=From my vCard&amp;amp;body="><i class="icon-location-arrow dynamicTextColor"></i><small class="dynamicTextColor">Email</small></a></div>
+        </div>
+      </div>
+      <div class="vcard-wrapper">
+        <div class="vcard-body">
+          <div class="ng-hide">
+            <div class="vcard-row">
+              <h4>Esperando el ingreso de datos</h4>
+            </div>
+            <div class="sk-three-bounce">
+              <div class="sk-child sk-bounce1"></div>
+              <div class="sk-child sk-bounce2"></div>
+              <div class="sk-child sk-bounce3"></div>
+            </div>
+          </div>
+          <div id="dvcard-details">
+            <div class="vcard-row ng-binding ng-hide"><i class="icon icon-birthday"></i>
+              <h4 class="ng-binding"></h4><small>Fecha de nacimiento</small>
+            </div>
+            <div class="vcard-row">
+              <h4 class="ng-binding">Empresa la poderosa</h4>
+            </div>
+            <div class="vcard-separator"></div>
+            <div class="vcard-row"><i class="icon icon-phone"></i>
+              <h4><a class="ng-binding" href="tel:95345456">95345456</a></h4><small>M&oacute;vil</small>
+            </div>
+            <div class="vcard-row pt0 ng-hide"><i class="icon icon-phone ng-hide"></i>
+              <h4><a class="ng-binding" href="tel:"></a></h4><small>Tel&eacute;fono</small>
+            </div>
+            <div class="vcard-row pt0 ng-hide">
+              <h4 class="ng-binding"></h4><small>Fax</small>
+            </div>
+            <div class="vcard-separator"></div>
+            <div class="vcard-row"><i class="icon icon-envelope"></i>
+              <h4><a class="ng-binding">aaa@gmail.com</a></h4><small>Email</small>
+            </div>
+            <div class="vcard-separator"></div>
+            <div class="vcard-row"><i class="icon icon-briefcase"></i>
+              <h4 class="ng-binding">La Empresa</h4><small class="ng-binding ng-hide"></small>
+            </div>
+            <div class="vcard-separator ng-hide"></div>
+            <div class="vcard-row ng-hide">
+              <label></label><i class="icon icon-event-location"></i>
+              <h4 class="ng-binding"></h4>
+              <h4 class="ng-binding"> </h4>
+              <h4 class="ng-binding"><span class="ng-binding ng-hide"><span class="ng-hide"></span></span></h4>
+              <h4 class="ng-binding"></h4>
+              <div class="floated-container ng-scope ng-hide"><a class="event-slim-button ripplelink left_15 mt-10" style="color: rgb(100, 181, 246);">Mostrar en mapa</a></div>
+            </div>
+            <div class="vcard-separator ng-hide"></div>
+            <div class="vcard-row"><i class="icon icon-globe"></i>
+              <h4><a class="ng-binding" href="http://www.empresa.com" target="_newLink">www.empresa.com</a></h4><small>P&aacute;gina web</small>
+            </div>
+            <div class="vcard-separator"></div>
+            <div id="socialmedialinksContainer">
+              <div class="vcard-social" style="margin-bottom:20px;">
+                <div class="socialMedia-container ng-hide">
+                  <label>Redes Sociales</label><i class="icon-social-media"></i>
+                  <div class="channels-padding mt-0"></div>
+                </div>
+              </div>
+            </div>
+            <div class="vcard-row follow-scroll contactData-container fixed-button">
+              <div class="fabs" id="saveContact">
+                <div class="fixed-blur-bgd"></div>
+                <div class="chat">
+                  <div class="fab-body fab-step1" data-test="save-contact-modal">
+                    <div class="iconFab icon-remove"></div>
+                    <div class="fab-header" style="color: rgb(100, 181, 246);">Guardar Datos de Contacto</div>
+                    <div class="fab-header text-regular">&iquest;C&oacute;mo quisiera guardar los datos de contacto?</div>
+                    <ul>
+                      <li class="addContactAction sendMail" href="javascript:void(0);"><i class="iconFab icon-envelope"></i><a href="javascript:void(0);">Enviar por Email</a></li>
+                      <li class="addContactAction sendMyPhone"><i class="iconFab icon-download-alt"></i><a class="ng-scope" href="javascript:void(0);">Guardar en Mi Tel&eacute;fono</a></li>
+                    </ul>
+                  </div>
+                  <div class="fab-body fab-step2" style="display:none;">
+                    <div class="iconFab icon-remove"></div>
+                    <div class="icon-event-back"></div>
+                    <div class="fab-header mt-10" style="color: rgb(100, 181, 246);"><span class="emailText1">Enviar por Email</span><span class="emailText2">Email fue enviado</span></div>
+                    <div class="fab-header text-regular"><span class="emailText1">Enviar datos de contacto v&iacute;a email.</span><span class="emailText2">Por favor revise su bandeja de entrada, el email llegar&aacute; en breve.</span>
+                      <form class="ng-pristine ng-valid ng-valid-email" action="#" method="post">
+                        <input class="fab-email-input ng-pristine ng-untouched ng-valid ng-valid-email" id="email" type="email" ng-model="email" placeholder="Ingresar Dirección de Email">
+                      </form>
+                    </div>
+                    <div class="btn green block">Enviar</div>
+                  </div>
+                </div><a class="fab" id="prime" style="background: rgb(100, 181, 246);"><span class="hidden-xs" style="color: white;"><i class="icon-downloadx prime iconFab icon-user" style="color: white;"></i>
+                    <div class="text-download">Descargar vCard</div></span><i class="prime iconFab icon-fab-share-add visible-xs" style="color: white;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery Librerias-->
+    <script src="js/vendor/vendor_all.js" type="text/javascript"></script>
+    <!-- Compilado de application.js-->
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+.vcard
+    include ../includes/header
+
+    .vcard-wrapper
+        .vcard-body
+            .ng-hide
+                .vcard-row
+                    h4 Esperando el ingreso de datos
+                .sk-three-bounce
+                    .sk-child.sk-bounce1
+                    .sk-child.sk-bounce2
+                    .sk-child.sk-bounce3
+
+            #dvcard-details
+                .vcard-row.ng-binding.ng-hide
+                    i.icon.icon-birthday
+                    h4.ng-binding
+                    small Fecha de nacimiento
+                .vcard-row
+                    h4.ng-binding Empresa la poderosa
+                .vcard-separator
+                .vcard-row
+                    i.icon.icon-phone
+                    h4
+                        a.ng-binding(href='tel:95345456') 95345456
+                    small M&oacute;vil
+                .vcard-row.pt0.ng-hide
+                    i.icon.icon-phone.ng-hide
+                    h4
+                        a.ng-binding(href='tel:')
+                    small Tel&eacute;fono
+                .vcard-row.pt0.ng-hide
+                    h4.ng-binding
+                    small Fax
+                .vcard-separator
+                .vcard-row
+                    i.icon.icon-envelope
+                    h4
+                        a.ng-binding aaa@gmail.com
+                    small Email
+                .vcard-separator
+                .vcard-row
+                    i.icon.icon-briefcase
+                    h4.ng-binding La Empresa
+                    small.ng-binding.ng-hide
+                .vcard-separator.ng-hide
+                .vcard-row.ng-hide
+                    label
+                    i.icon.icon-event-location
+                    h4.ng-binding
+                    h4.ng-binding  
+                    h4.ng-binding
+                        span.ng-binding.ng-hide
+                            span.ng-hide
+                    h4.ng-binding
+                    .floated-container.ng-scope.ng-hide
+                        a.event-slim-button.ripplelink.left_15.mt-10(style='color: rgb(100, 181, 246);')
+                            | Mostrar en mapa
+                .vcard-separator.ng-hide
+                .vcard-row
+                    i.icon.icon-globe
+                    h4
+                        a.ng-binding(href='http://www.empresa.com' target='_newLink') www.empresa.com
+                    small P&aacute;gina web
+                .vcard-separator
+                #socialmedialinksContainer
+                    .vcard-social(style='margin-bottom:20px;')
+                        .socialMedia-container.ng-hide
+                            label Redes Sociales
+                            i.icon-social-media
+                            .channels-padding.mt-0
+                .vcard-row.follow-scroll.contactData-container.fixed-button
+                    #saveContact.fabs
+                        .fixed-blur-bgd
+                        .chat
+                            .fab-body.fab-step1(data-test='save-contact-modal')
+                                .iconFab.icon-remove
+                                .fab-header(style='color: rgb(100, 181, 246);')
+                                    | Guardar Datos de Contacto
+                                .fab-header.text-regular &iquest;C&oacute;mo quisiera guardar los datos de contacto?
+                                ul
+                                    li.addContactAction.sendMail(href='javascript:void(0);')
+                                        i.iconFab.icon-envelope
+                                        a(href='javascript:void(0);')
+                                            | Enviar por Email
+                                    li.addContactAction.sendMyPhone
+                                        i.iconFab.icon-download-alt
+                                        a.ng-scope(href='javascript:void(0);')
+                                            | Guardar en Mi Tel&eacute;fono
+                            .fab-body.fab-step2(style='display:none;')
+                                .iconFab.icon-remove
+                                .icon-event-back
+                                .fab-header.mt-10(style='color: rgb(100, 181, 246);')
+                                    span.emailText1 Enviar por Email
+                                    span.emailText2 Email fue enviado
+                                .fab-header.text-regular
+                                    span.emailText1 Enviar datos de contacto v&iacute;a email.
+                                    span.emailText2 Por favor revise su bandeja de entrada, el email llegar&aacute; en breve.
+                                    form.ng-pristine.ng-valid.ng-valid-email(action='#' method='post')
+                                        input#email.fab-email-input.ng-pristine.ng-untouched.ng-valid.ng-valid-email(type='email' ng-model='email' placeholder='Ingresar Dirección de Email')
+                                .btn.green.block
+                                    | Enviar
+                    
+                        a#prime.fab(style='background: rgb(100, 181, 246);')
+                            span.hidden-xs(style='color: white;')
+                                i.icon-downloadx.prime.iconFab.icon-user(style='color: white;')
+                                .text-download Descargar vCard
+                            i.prime.iconFab.icon-fab-share-add.visible-xs(style='color: white;')
