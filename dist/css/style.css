@@ -2329,8 +2329,9 @@ a:hover {
       background: url("../images/32036519_1.png"); }
     .vcard .vcard-header .full-name {
       color: #fff;
-      font-weight: 400;
-      margin: 20px 0; }
+      font-weight: bold;
+      margin: 20px 0;
+      font-size: 20.5px; }
     .vcard .vcard-header .header-functions {
       display: flex;
       margin: 0 auto;
@@ -2357,6 +2358,11 @@ a:hover {
           margin-bottom: 4px; }
         .vcard .vcard-header .header-functions a .dynamicTextColor {
           color: #fffefe; }
+          .vcard .vcard-header .header-functions a .dynamicTextColor svg {
+            width: 14px;
+            height: 17px; }
+            .vcard .vcard-header .header-functions a .dynamicTextColor svg path {
+              fill: #FFF; }
         .vcard .vcard-header .header-functions a small {
           display: block;
           text-transform: uppercase;

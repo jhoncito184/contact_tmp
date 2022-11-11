@@ -38,8 +38,9 @@
 
         .full-name {
             color: #fff;
-            font-weight: 400;
+            font-weight: bold;
             margin: 20px 0;
+            font-size: 20.5px;
         }
 
         .header-functions {
@@ -76,6 +77,15 @@
 
                 .dynamicTextColor {
                     color: #fffefe;
+
+                    svg {
+                        width: 14px;
+                        height: 17px;
+
+                        path {
+                            fill: #FFF;
+                        }
+                    }
                 }
 
                 small {
