@@ -2303,8 +2303,7 @@ a:hover {
   position: relative; }
   .vcard .vcard-header {
     padding-top: 60px;
-    text-align: center;
-    background: #0288d1; }
+    text-align: center; }
     @media (max-width: 992px) {
       .vcard .vcard-header {
         padding-top: 0; } }
@@ -2325,8 +2324,7 @@ a:hover {
       border-radius: 50%;
       background-position: center center !important;
       background-size: cover !important;
-      margin: 10px auto 0 auto;
-      background: url("../images/32036519_1.png"); }
+      margin: 10px auto 0 auto; }
     .vcard .vcard-header .full-name {
       color: #fff;
       font-weight: bold;

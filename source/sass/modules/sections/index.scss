@@ -4,7 +4,7 @@
     .vcard-header {
         padding-top: 60px;
         text-align: center;
-        background: #0288d1;
+        // background: #0288d1;
 
         @include bp(baby) {
             padding-top: 0;
@@ -33,7 +33,7 @@
             background-position: center center !important;
             background-size: cover !important;
             margin: 10px auto 0 auto;
-            background: url("../images/32036519_1.png");
+            // background: url("../images/32036519_1.png");
         }
 
         .full-name {
